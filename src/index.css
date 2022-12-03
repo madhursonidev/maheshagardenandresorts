@@ -14,3 +14,92 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 100;
+    src: url("../public/assets/fonts/montserrat/Montserrat-Thin.ttf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 200;
+    src: url("../public/assets/fonts/montserrat/Montserrat-ExtraLight.ttf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 300;
+    src: url("../public/assets/fonts/montserrat/Montserrat-Light.ttf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 400;
+    src: url("../public/assets/fonts/montserrat/Montserrat-Regular.ttf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    src: url("../public/assets/fonts/montserrat/Montserrat-Medium.ttf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 600;
+    src: url("../public/assets/fonts/montserrat/Montserrat-SemiBold.ttf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 700;
+    src: url("../public/assets/fonts/montserrat/Montserrat-Bold.ttf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 800;
+    src: url("../public/assets/fonts/montserrat/Montserrat-ExtraBold.ttf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    font-weight: 900;
+    src: url("../public/assets/fonts/montserrat/Montserrat-Black.ttf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Adobe Garamond Pro";
+    font-weight: 500;
+    src: url("../public/assets/fonts/adobe-garamond-pro/Adobe-Garamond-Pro-Regular.otf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Adobe Garamond Pro";
+    font-weight: 600;
+    src: url("../public/assets/fonts/adobe-garamond-pro/Adobe-Garamond-Pro-Semibold.otf")
+      format("ttf");
+  }
+
+  @font-face {
+    font-family: "Adobe Garamond Pro";
+    font-weight: 700;
+    src: url("../public/assets/fonts/adobe-garamond-pro/Adobe-Garamond-Pro-Bold.otf")
+      format("ttf");
+  }
+}
+#root {
+  @apply font-sans text-xl font-normal text-black;
+}

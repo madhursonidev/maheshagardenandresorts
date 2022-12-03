@@ -10,7 +10,10 @@ const Home = () => {
         <Button>facilities</Button>
       </Link>
       <Link to="contact">
-        <p className="text-xl underline cursor-pointer">
+        <p className="text-xl font-sans underline cursor-pointer">
+          Click to view our contact page
+        </p>
+        <p className="text-xl font-serif underline cursor-pointer">
           Click to view our contact page
         </p>
       </Link>
