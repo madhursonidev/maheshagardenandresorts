@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./core_component/Button";
 import Navigation from "./Navigation";
 import { IoIosArrowDropdownCircle } from "react-icons/io";
+import { FaHotel } from "react-icons/fa";
 
 const Home = () => {
   const bgImage = {
@@ -24,7 +25,12 @@ const Home = () => {
             </div>
           </div>
           <div className="grid place-content-center">
-            <Button className="text-2xl font-bold !p-5"> BOOK NOW</Button>
+            <Button className="text-2xl font-bold !p-5">
+              <p className="flex">
+                <FaHotel />
+                BOOK NOW
+              </p>
+            </Button>
           </div>
           <div className="text-white text-center justify-center grid place-content-center grid-flow-row">
             Scroll

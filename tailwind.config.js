@@ -7,6 +7,9 @@ module.exports = {
         sans: ["Montserrat", "sans-serif"],
         serif: ['"Adobe Garamond Pro"', "serif"],
       },
+      colors: {
+        "primary-yellow": "#E0B973",
+      },
     },
   },
   plugins: [],

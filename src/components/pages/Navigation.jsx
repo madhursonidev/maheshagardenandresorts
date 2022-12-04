@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <div>
       <div className="flex">
-        <div className="w-64 h-40 bg-white grid rounded-b-3xl place-content-center">
+        <div className="w-64 h-40 bg-white grid rounded-b-[40px] place-content-center">
           <img
             src="/assets/images/logo_2.png"
             alt="Mahesha Garden and Resorts"
