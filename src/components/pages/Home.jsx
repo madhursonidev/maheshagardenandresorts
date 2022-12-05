@@ -15,24 +15,26 @@ const Home = () => {
           <Navigation />
           <div className="text-white">
             <div>
-              <p className="text-5xl">WELCOME TO</p>
-              <p className="font-serif text-[154px] leading-[116px]">LUXURY</p>
-              <p className="text-6xl font-serif">HOTELS</p>
-              <p className="text-2xl max-w-xl">
+              <p className="text-5xl font-light">WELCOME TO</p>
+              <p className="font-serif text-[154px] leading-[116px] font-bold">
+                LUXURY
+              </p>
+              <p className="text-6xl font-serif font-bold">HOTELS</p>
+              <p className="text-2xl max-w-xl font-light">
                 Book your stay and enjoy Luxury redefined at the most affordable
                 rates.
               </p>
             </div>
           </div>
           <div className="grid place-content-center">
-            <Button className="text-2xl font-bold !p-5">
-              <p className="flex">
-                <FaHotel />
+            <Button className="text-2xl text-black font-bold !p-5">
+              <p className="flex items-center">
+                <FaHotel size={20} className="mr-2" />
                 BOOK NOW
               </p>
             </Button>
           </div>
-          <div className="text-white text-center justify-center grid place-content-center grid-flow-row">
+          <div className="text-white text-center mb-5 justify-center grid place-content-center grid-flow-row">
             Scroll
             <p className="flex justify-center">
               <IoIosArrowDropdownCircle size={60} />

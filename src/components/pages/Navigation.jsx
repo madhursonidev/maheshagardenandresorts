@@ -11,7 +11,7 @@ const Navigation = () => {
             alt="Mahesha Garden and Resorts"
           />
         </div>
-        <div className="grid gap-20 items-center text-white text-2xl font-bold ml-auto grid-flow-col">
+        <div className="grid gap-20 items-center text-white font-bold ml-auto grid-flow-col">
           <Link to="contact" className="border-b-2 border-solid">
             Home
           </Link>
