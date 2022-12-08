@@ -8,7 +8,15 @@ module.exports = {
         serif: ['"Adobe Garamond Pro"', "serif"],
       },
       colors: {
-        "primary-yellow": "#E0B973",
+        gold: {
+          200: '#EBCFA9',
+          300: '#E8C797',
+          400: '#E4C085',
+          500: '#E0B973',
+          600: '#E4B161',
+          700: '#E09C41',
+          800: '#D69033',
+        },
       },
     },
   },

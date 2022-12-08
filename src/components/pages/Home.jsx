@@ -3,6 +3,7 @@ import Button from "./core_component/Button";
 import Navigation from "./Navigation";
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { FaHotel } from "react-icons/fa";
+import AboutUs from "./AboutUs";
 
 const Home = () => {
   const bgImage = {
@@ -15,19 +16,19 @@ const Home = () => {
           <Navigation />
           <div className="text-white">
             <div>
-              <p className="text-5xl font-light">WELCOME TO</p>
-              <p className="font-serif text-[154px] leading-[116px] font-bold">
+              <p className="text-4xl font-light">WELCOME TO</p>
+              <p className="font-serif text-9xl leading-[116px]_ leading-none font-bold">
                 LUXURY
               </p>
-              <p className="text-6xl font-serif font-bold">HOTELS</p>
-              <p className="text-2xl max-w-xl font-light">
+              <p className="text-5xl font-serif font-bold">HOTELS</p>
+              <p className="max-w-lg">
                 Book your stay and enjoy Luxury redefined at the most affordable
                 rates.
               </p>
             </div>
           </div>
           <div className="grid place-content-center">
-            <Button className="text-2xl text-black font-bold !p-5">
+            <Button className="text-2xl text-black font-bold !p-4">
               <p className="flex items-center">
                 <FaHotel size={20} className="mr-2" />
                 BOOK NOW
@@ -42,6 +43,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <AboutUs />
     </div>
   );
 };
