@@ -3,7 +3,7 @@ import Button from "./core_component/Button";
 
 const AboutUs = () => {
   return (
-    <div className="bg-black px-5 py-20 ">
+    <div className="bg-black px-5 py-28">
       <div className="flex justify-between container mx-auto">
         <div className="w-1/2 text-white flex justify-between flex-col">
           <p className="text-2xl font-bold font-serif text-gold-500">
