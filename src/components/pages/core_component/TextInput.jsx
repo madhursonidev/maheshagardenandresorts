@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import React from "react";
 
-const InputText = ({
+const TextInput = ({
   name,
   id,
   placeholder,
@@ -23,7 +23,7 @@ const InputText = ({
         name={name}
         placeholder={placeholder}
         className={clsx(
-          "w-full border p-3 border-solid rounded-full border-black",
+          "w-full border bg-transparent placeholder:text-white text-white p-3 border-solid rounded-full border-black",
           className
         )}
         {...props}
@@ -32,4 +32,4 @@ const InputText = ({
   );
 };
 
-export default InputText;
+export default TextInput;

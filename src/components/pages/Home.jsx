@@ -5,6 +5,9 @@ import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { FaHotel } from "react-icons/fa";
 import AboutUs from "./AboutUs";
 import Rooms from "./Rooms";
+import Facilities from "./Facilities";
+import Testimonials from "./Testimonials";
+import Footer from "./Footer";
 
 const Home = () => {
   const bgImage = {
@@ -46,6 +49,9 @@ const Home = () => {
       </div>
       <AboutUs />
       <Rooms />
+      <Facilities />
+      <Testimonials />
+      <Footer />
     </div>
   );
 };

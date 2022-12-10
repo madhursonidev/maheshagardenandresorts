@@ -1,50 +1,43 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './button.css';
+import React from "react";
+import clsx from "clsx";
+import PropTypes from "prop-types";
 
-/**
- * Primary UI component for user interaction
- */
-export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-  return (
-    <button
-      type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={backgroundColor && { backgroundColor }}
-      {...props}
-    >
-      {label}
-    </button>
-  );
+export const Variants = {
+  Primary: "primary",
+  White: "white",
 };
 
+const Button = ({
+  children,
+  className,
+  variant = Variants.Primary,
+  onClick,
+}) => {
+  return (
+    <div>
+      <button
+        onClick={onClick}
+        className={clsx(
+          "font-bold py-2 px-4 rounded",
+          {
+            "bg-gold-500 text-white hover:bg-gold-700":
+              variant === Variants.Primary,
+            "bg-white text-black hover:bg-slate-300":
+              variant === Variants.White,
+          },
+          className
+        )}
+      >
+        {children}
+      </button>
+    </div>
+  );
+};
 Button.propTypes = {
-  /**
-   * Is this the principal call to action on the page?
-   */
-  primary: PropTypes.bool,
-  /**
-   * What background color to use
-   */
-  backgroundColor: PropTypes.string,
-  /**
-   * How large should the button be?
-   */
-  size: PropTypes.oneOf(['small', 'medium', 'large']),
-  /**
-   * Button contents
-   */
-  label: PropTypes.string.isRequired,
-  /**
-   * Optional click handler
-   */
+  className: PropTypes.string,
+  children: PropTypes.string,
+  variant: PropTypes.oneOf(Object.values(Variants)),
   onClick: PropTypes.func,
 };
 
-Button.defaultProps = {
-  backgroundColor: null,
-  primary: false,
-  size: 'medium',
-  onClick: undefined,
-};
+export default Button;

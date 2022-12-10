@@ -2,12 +2,29 @@ import React from "react";
 import clsx from "clsx";
 import PropTypes from "prop-types";
 
-const Button = ({ children, className }) => {
+export const Variants = {
+  Golden: "golden",
+  White: "white",
+};
+
+const Button = ({
+  children,
+  className,
+  variant = Variants.Golden,
+  onClick,
+}) => {
   return (
     <div>
       <button
+        onClick={onClick}
         className={clsx(
-          "bg-gold-500 hover:bg-gold-700 text-white font-bold py-2 px-4 rounded",
+          "font-bold py-2 px-4 rounded",
+          {
+            "bg-gold-500 text-white hover:bg-gold-700":
+              variant === Variants.Golden,
+            "bg-white text-black hover:bg-slate-300":
+              variant === Variants.White,
+          },
           className
         )}
       >
@@ -19,6 +36,8 @@ const Button = ({ children, className }) => {
 Button.propTypes = {
   className: PropTypes.string,
   children: PropTypes.string,
+  variant: PropTypes.oneOf(Object.values(Variants)),
+  onClick: PropTypes.func,
 };
 
 export default Button;

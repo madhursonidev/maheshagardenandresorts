@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./core_component/Button";
-import InputText from "./core_component/InputText";
+import TextInput from "./core_component/TextInput";
 import { MdBed, MdPhone } from "react-icons/md";
 import { RiCalendar2Fill } from "react-icons/ri";
 import { GoPerson } from "react-icons/go";
@@ -8,36 +8,36 @@ import { GoPerson } from "react-icons/go";
 const Rooms = () => {
   return (
     <div className="flex bg-gold-500 px-5 py-28 justify-center text-center">
-      <div>
+      <div className="container mx-auto">
         <h1 className="text-5xl font-serif font-medium">
           BOOK YOUR RESORT ROOM
         </h1>
         <p>There are three types of room available.</p>
         <form action="" method="post" className="mt-12">
-          <div className="flex text-left">
+          <div className="grid grid-flow-col justify-between gap-5 text-left">
             <div className="flex flex-col">
               <label className="font-medium flex" for="room">
                 <MdBed /> ROOM
               </label>
-              <InputText name="room" placeholder="Choose Room Type" />
+              <TextInput name="room" placeholder="Choose Room Type" />
             </div>
             <div className="flex flex-col">
               <label className="font-medium flex" for="date">
                 <RiCalendar2Fill /> DATE
               </label>
-              <InputText name="date" placeholder="dd/mm/yyyy" />
+              <TextInput name="date" placeholder="dd/mm/yyyy" />
             </div>
             <div className="flex flex-col">
               <label className="font-medium flex" for="name">
                 <GoPerson /> NAME
               </label>
-              <InputText name="name" placeholder="Your full name" />
+              <TextInput name="name" placeholder="Your full name" />
             </div>
             <div className="flex flex-col">
               <label className="font-medium flex" for="phoneNumber">
                 <MdPhone /> PHONE NUMBER
               </label>
-              <InputText name="phoneNumber" placeholder="Mobile number" />
+              <TextInput name="phoneNumber" placeholder="Mobile number" />
             </div>
             <Button className="text-2xl text-black font-bold !p-4">
               <p className="flex items-center">BOOK NOW</p>
