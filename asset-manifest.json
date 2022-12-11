@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/maheshagardenandresorts/static/css/main.7b658105.css",
+    "main.js": "/maheshagardenandresorts/static/js/main.afec6a8e.js",
+    "static/js/787.26e54496.chunk.js": "/maheshagardenandresorts/static/js/787.26e54496.chunk.js",
+    "static/media/Montserrat-SemiBold.ttf": "/maheshagardenandresorts/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-ExtraBold.ttf": "/maheshagardenandresorts/static/media/Montserrat-ExtraBold.3a9ee100617f45a96d92.ttf",
+    "static/media/Montserrat-Medium.ttf": "/maheshagardenandresorts/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Montserrat-Bold.ttf": "/maheshagardenandresorts/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Light.ttf": "/maheshagardenandresorts/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
+    "static/media/Montserrat-Regular.ttf": "/maheshagardenandresorts/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/Montserrat-Black.ttf": "/maheshagardenandresorts/static/media/Montserrat-Black.08437fd0aa82576d3678.ttf",
+    "static/media/Montserrat-ExtraLight.ttf": "/maheshagardenandresorts/static/media/Montserrat-ExtraLight.ef3c777f702c89a0f300.ttf",
+    "static/media/Montserrat-Thin.ttf": "/maheshagardenandresorts/static/media/Montserrat-Thin.413b6b9f23ece3b343a7.ttf",
+    "static/media/Adobe-Garamond-Pro-Regular.otf": "/maheshagardenandresorts/static/media/Adobe-Garamond-Pro-Regular.9b0413a839f8514dc24b.otf",
+    "static/media/Adobe-Garamond-Pro-Semibold.otf": "/maheshagardenandresorts/static/media/Adobe-Garamond-Pro-Semibold.b101bde80aece8087366.otf",
+    "static/media/Adobe-Garamond-Pro-Bold.otf": "/maheshagardenandresorts/static/media/Adobe-Garamond-Pro-Bold.26b7f980032a65d84390.otf",
+    "index.html": "/maheshagardenandresorts/index.html",
+    "main.7b658105.css.map": "/maheshagardenandresorts/static/css/main.7b658105.css.map",
+    "main.afec6a8e.js.map": "/maheshagardenandresorts/static/js/main.afec6a8e.js.map",
+    "787.26e54496.chunk.js.map": "/maheshagardenandresorts/static/js/787.26e54496.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b658105.css",
+    "static/js/main.afec6a8e.js"
+  ]
+}
