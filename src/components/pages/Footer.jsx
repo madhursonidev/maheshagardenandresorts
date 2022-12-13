@@ -8,7 +8,7 @@ const Footer = () => {
         <div>
           <p>
             <img
-              src="/assets/images/Logo_white_1.png"
+              src="/maheshagardenandresorts/assets/images/Logo_white_1.png"
               alt="Mahesha"
               className="py-5 "
             />

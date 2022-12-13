@@ -18,7 +18,7 @@ const AboutUs = () => {
         </div>
         <div className="w-1/2">
           <img
-            src="/assets/images/Rectangle_1106.png"
+            src="/maheshagardenandresorts/assets/images/Rectangle_1106.png"
             alt="Rooms"
             className="w-full h-full rounded-2xl"
           />

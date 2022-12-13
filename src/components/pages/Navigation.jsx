@@ -7,7 +7,7 @@ const Navigation = () => {
       <div className="flex">
         <div className="w-64 h-40 bg-white grid rounded-b-[40px] place-content-center">
           <img
-            src="/assets/images/logo_2.png"
+            src="/maheshagardenandresorts/assets/images/logo_2.png"
             alt="Mahesha Garden and Resorts"
           />
         </div>

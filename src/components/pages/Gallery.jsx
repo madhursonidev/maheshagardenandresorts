@@ -3,25 +3,25 @@ import Button from "./core_component/Button";
 
 const imgs = [
   {
-    img: "/assets/images/Rectangle_1111.png",
+    img: "/maheshagardenandresorts/assets/images/Rectangle_1111.png",
   },
   {
-    img: "/assets/images/Rectangle_1112.png",
+    img: "/maheshagardenandresorts/assets/images/Rectangle_1112.png",
   },
   {
-    img: "/assets/images/Rectangle_1114.png",
+    img: "/maheshagardenandresorts/assets/images/Rectangle_1114.png",
   },
   {
-    img: "/assets/images/Rectangle_1115.png",
+    img: "/maheshagardenandresorts/assets/images/Rectangle_1115.png",
   },
   {
-    img: "/assets/images/Rectangle_1113.png",
+    img: "/maheshagardenandresorts/assets/images/Rectangle_1113.png",
   },
   {
-    img: "/assets/images/Rectangle_1116.png",
+    img: "/maheshagardenandresorts/assets/images/Rectangle_1116.png",
   },
   {
-    img: "/assets/images/Rectangle_1117.png",
+    img: "/maheshagardenandresorts/assets/images/Rectangle_1117.png",
   },
 ];
 const openImage = (singleImage) => {};
@@ -42,7 +42,9 @@ const Gallery = () => {
           );
         })}
       </div>
-      <div className="px-2 py-5"><Button >SEE MORE</Button></div>
+      <div className="px-2 py-5">
+        <Button>SEE MORE</Button>
+      </div>
     </div>
   );
 };

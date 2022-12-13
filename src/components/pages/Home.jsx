@@ -11,7 +11,8 @@ import Footer from "./Footer";
 
 const Home = () => {
   const bgImage = {
-    backgroundImage: 'url("/assets/images/Rectangle_1104.png")',
+    backgroundImage:
+      'url("/maheshagardenandresorts/assets/images/Rectangle_1104.png")',
   };
   return (
     <div>
